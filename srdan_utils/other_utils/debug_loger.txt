@@ -1,0 +1,563 @@
+2020-07-05 01:32:46,832   INFO  Database filter by min points car: 99279 => 78884
+2020-07-05 01:32:46,911   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-05 01:32:47,014   INFO  Loading nusc dataset
+2020-07-05 01:32:47,764   INFO  Total samples for nusc dataset: 11774
+2020-07-05 01:33:19,130   INFO  Database filter by min points car: 99279 => 78884
+2020-07-05 01:33:19,212   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-05 01:33:19,313   INFO  Loading nusc dataset
+2020-07-05 01:33:20,068   INFO  Total samples for nusc dataset: 11774
+2020-07-05 01:33:35,651   INFO  Database filter by min points car: 99279 => 78884
+2020-07-05 01:33:35,733   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-05 01:33:35,833   INFO  Loading nusc dataset
+2020-07-05 01:33:36,609   INFO  Total samples for nusc dataset: 11774
+2020-07-05 01:33:54,960   INFO  Database filter by min points car: 99279 => 78884
+2020-07-05 01:33:55,039   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-05 01:33:55,143   INFO  Loading nusc dataset
+2020-07-05 01:33:55,900   INFO  Total samples for nusc dataset: 11774
+2020-07-05 01:40:50,089   INFO  Database filter by min points car: 99279 => 78884
+2020-07-05 01:40:50,167   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-05 01:40:50,268   INFO  Loading nusc dataset
+2020-07-05 01:40:51,016   INFO  Total samples for nusc dataset: 11774
+2020-07-05 01:41:06,040   INFO  Database filter by min points car: 99279 => 78884
+2020-07-05 01:41:06,119   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-05 01:41:06,220   INFO  Loading nusc dataset
+2020-07-05 01:41:06,972   INFO  Total samples for nusc dataset: 11774
+2020-07-05 01:44:01,533   INFO  Database filter by min points car: 99279 => 78884
+2020-07-05 01:44:01,611   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-05 01:44:01,713   INFO  Loading nusc dataset
+2020-07-05 01:44:02,471   INFO  Total samples for nusc dataset: 11774
+2020-07-06 16:18:45,666   INFO  Database filter by min points car: 99279 => 78884
+2020-07-06 16:18:45,762   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-06 16:18:46,070   INFO  Loading nusc dataset
+2020-07-06 16:18:46,778   INFO  Total samples for nusc dataset: 12435
+2020-07-06 16:23:41,223   INFO  Database filter by min points car: 99279 => 78884
+2020-07-06 16:23:41,306   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-06 16:23:41,517   INFO  Loading nusc dataset
+2020-07-06 16:23:42,192   INFO  Total samples for nusc dataset: 12435
+2020-07-06 16:24:48,543   INFO  Database filter by min points car: 99279 => 78884
+2020-07-06 16:24:48,624   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-06 16:24:48,849   INFO  Loading nusc dataset
+2020-07-06 16:24:49,648   INFO  Total samples for nusc dataset: 12435
+2020-07-06 16:25:36,111   INFO  Database filter by min points car: 99279 => 78884
+2020-07-06 16:25:36,195   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-06 16:25:36,313   INFO  Loading nusc dataset
+2020-07-06 16:25:38,133   INFO  Total samples for nusc dataset: 28130
+2020-07-06 18:02:45,894   INFO  Database filter by min points car: 99279 => 78884
+2020-07-06 18:02:45,977   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-06 18:02:46,088   INFO  Loading nusc dataset
+2020-07-06 18:02:46,774   INFO  Total samples for nusc dataset: 12435
+2020-07-17 16:54:43,169   INFO  Database filter by min points car: 99279 => 78884
+2020-07-17 16:54:43,364   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-17 16:55:19,940   INFO  Database filter by min points car: 99279 => 78884
+2020-07-17 16:55:20,113   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-17 16:55:20,292   INFO  Loading nusc dataset
+2020-07-17 16:55:21,691   INFO  Total samples for nusc dataset: 12435
+2020-07-17 16:56:05,295   INFO  Database filter by min points car: 99279 => 78884
+2020-07-17 16:56:05,376   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-17 16:56:05,644   INFO  Loading nusc dataset
+2020-07-17 16:56:06,383   INFO  Total samples for nusc dataset: 12435
+2020-07-17 16:58:21,767   INFO  Database filter by min points car: 99279 => 78884
+2020-07-17 16:58:21,930   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-17 16:58:22,370   INFO  Loading nusc dataset
+2020-07-17 16:58:23,613   INFO  Total samples for nusc dataset: 12435
+2020-07-17 16:59:11,078   INFO  Database filter by min points car: 99279 => 78884
+2020-07-17 16:59:11,217   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-17 16:59:11,539   INFO  Loading nusc dataset
+2020-07-17 16:59:12,603   INFO  Total samples for nusc dataset: 12435
+2020-07-17 16:59:43,259   INFO  Database filter by min points car: 99279 => 78884
+2020-07-17 16:59:43,428   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-17 16:59:43,774   INFO  Loading nusc dataset
+2020-07-17 16:59:45,066   INFO  Total samples for nusc dataset: 12435
+2020-07-17 17:00:05,668   INFO  Database filter by min points car: 99279 => 78884
+2020-07-17 17:00:05,838   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-17 17:00:06,246   INFO  Loading nusc dataset
+2020-07-17 17:00:31,334   INFO  Database filter by min points car: 99279 => 78884
+2020-07-17 17:00:31,513   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-17 17:00:32,187   INFO  Loading nusc dataset
+2020-07-17 17:00:33,419   INFO  Total samples for nusc dataset: 12435
+2020-07-17 17:01:36,696   INFO  Database filter by min points car: 314039 => 231782
+2020-07-17 17:01:37,165   INFO  Database filter by difficulty car: 231782 => 231782
+2020-07-17 17:01:37,493   INFO  Loading nusc dataset
+2020-07-17 17:01:38,959   INFO  Total samples for nusc dataset: 15695
+2020-07-17 17:01:53,037   INFO  Database filter by min points car: 99279 => 78884
+2020-07-17 17:01:53,197   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-17 17:01:53,506   INFO  Loading nusc dataset
+2020-07-17 17:01:54,735   INFO  Total samples for nusc dataset: 12435
+2020-07-17 17:06:56,085   INFO  Database filter by min points car: 99279 => 78884
+2020-07-17 17:06:56,244   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-17 17:06:56,429   INFO  Loading nusc dataset
+2020-07-17 17:06:57,577   INFO  Total samples for nusc dataset: 12435
+2020-07-17 17:08:51,014   INFO  Database filter by min points car: 99279 => 78884
+2020-07-17 17:08:51,112   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-17 17:08:51,333   INFO  Loading nusc dataset
+2020-07-17 17:08:52,534   INFO  Total samples for nusc dataset: 12435
+2020-07-17 17:10:19,188   INFO  Database filter by min points car: 314039 => 231782
+2020-07-17 17:10:19,704   INFO  Database filter by difficulty car: 231782 => 231782
+2020-07-17 17:10:20,222   INFO  Loading nusc dataset
+2020-07-17 17:10:22,214   INFO  Total samples for nusc dataset: 15695
+2020-07-17 17:15:51,798   INFO  Database filter by min points car: 99279 => 78884
+2020-07-17 17:15:51,880   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-17 17:15:51,990   INFO  Loading nusc dataset
+2020-07-17 17:15:52,140   INFO  Database filter by min points car: 314039 => 231782
+2020-07-17 17:15:52,378   INFO  Database filter by difficulty car: 231782 => 231782
+2020-07-17 17:15:52,599   INFO  Loading nusc dataset
+2020-07-17 17:15:53,561   INFO  Total samples for nusc dataset: 15695
+2020-07-17 17:16:07,760   INFO  Database filter by min points car: 99279 => 78884
+2020-07-17 17:16:07,845   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-17 17:16:07,948   INFO  Loading nusc dataset
+2020-07-17 17:16:08,631   INFO  Total samples for nusc dataset: 12435
+2020-07-17 17:38:40,692   INFO  Database filter by min points car: 314039 => 231782
+2020-07-17 17:38:40,931   INFO  Database filter by difficulty car: 231782 => 231782
+2020-07-17 17:38:41,154   INFO  Loading nusc dataset
+2020-07-17 17:38:42,062   INFO  Total samples for nusc dataset: 15695
+2020-07-17 17:38:42,086   INFO  Database filter by min points car: 99279 => 78884
+2020-07-17 17:38:42,170   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-17 17:38:42,281   INFO  Loading nusc dataset
+2020-07-17 17:38:42,986   INFO  Total samples for nusc dataset: 12435
+2020-07-17 17:39:42,101   INFO  Database filter by min points car: 314039 => 231782
+2020-07-17 17:39:42,337   INFO  Database filter by difficulty car: 231782 => 231782
+2020-07-17 17:39:42,390   INFO  Database filter by min points car: 99279 => 78884
+2020-07-17 17:39:42,470   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-17 17:39:42,569   INFO  Loading nusc dataset
+2020-07-17 17:39:42,582   INFO  Loading nusc dataset
+2020-07-17 17:39:43,273   INFO  Total samples for nusc dataset: 12435
+2020-07-17 17:39:43,536   INFO  Total samples for nusc dataset: 15695
+2020-07-17 17:44:06,350   INFO  Database filter by min points car: 314039 => 231782
+2020-07-17 17:44:06,590   INFO  Database filter by difficulty car: 231782 => 231782
+2020-07-17 17:44:06,806   INFO  Loading nusc dataset
+2020-07-17 17:44:07,730   INFO  Total samples for nusc dataset: 15695
+2020-07-17 17:46:36,594   INFO  Database filter by min points car: 314039 => 231782
+2020-07-17 17:46:36,837   INFO  Database filter by difficulty car: 231782 => 231782
+2020-07-17 17:46:37,056   INFO  Loading nusc dataset
+2020-07-17 17:46:37,956   INFO  Total samples for nusc dataset: 15695
+2020-07-17 17:46:41,835   INFO  Database filter by min points car: 314039 => 231782
+2020-07-17 17:46:42,068   INFO  Database filter by difficulty car: 231782 => 231782
+2020-07-17 17:46:42,288   INFO  Loading nusc dataset
+2020-07-17 17:47:06,691   INFO  Database filter by min points car: 99279 => 78884
+2020-07-17 17:47:06,775   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-17 17:47:06,881   INFO  Loading nusc dataset
+2020-07-17 17:47:07,596   INFO  Total samples for nusc dataset: 12435
+2020-07-17 17:48:07,428   INFO  Database filter by min points car: 99279 => 78884
+2020-07-17 17:48:07,506   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-17 17:48:07,617   INFO  Loading nusc dataset
+2020-07-17 17:48:08,327   INFO  Total samples for nusc dataset: 12435
+2020-07-17 17:48:10,101   INFO  Database filter by min points car: 314039 => 231782
+2020-07-17 17:48:10,330   INFO  Database filter by difficulty car: 231782 => 231782
+2020-07-17 17:48:10,562   INFO  Loading nusc dataset
+2020-07-17 17:48:11,496   INFO  Total samples for nusc dataset: 15695
+2020-07-17 17:50:21,715   INFO  Database filter by min points car: 314039 => 231782
+2020-07-17 17:50:21,955   INFO  Database filter by difficulty car: 231782 => 231782
+2020-07-17 17:50:22,209   INFO  Loading nusc dataset
+2020-07-17 17:50:23,147   INFO  Total samples for nusc dataset: 15695
+2020-07-17 17:50:24,016   INFO  Database filter by min points car: 99279 => 78884
+2020-07-17 17:50:24,099   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-17 17:50:24,205   INFO  Loading nusc dataset
+2020-07-17 17:50:24,903   INFO  Total samples for nusc dataset: 12435
+2020-07-17 17:50:34,222   INFO  Database filter by min points car: 314039 => 231782
+2020-07-17 17:50:34,458   INFO  Database filter by difficulty car: 231782 => 231782
+2020-07-17 17:50:34,686   INFO  Loading nusc dataset
+2020-07-17 17:50:35,662   INFO  Total samples for nusc dataset: 15695
+2020-07-17 17:51:56,949   INFO  Database filter by min points car: 314039 => 231782
+2020-07-17 17:51:57,181   INFO  Database filter by difficulty car: 231782 => 231782
+2020-07-17 17:51:57,398   INFO  Loading nusc dataset
+2020-07-17 17:51:58,358   INFO  Total samples for nusc dataset: 15695
+2020-07-17 17:51:59,863   INFO  Database filter by min points car: 99279 => 78884
+2020-07-17 17:51:59,946   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-17 17:52:00,055   INFO  Loading nusc dataset
+2020-07-17 17:52:00,747   INFO  Total samples for nusc dataset: 12435
+2020-07-17 17:54:17,018   INFO  Database filter by min points car: 314039 => 231782
+2020-07-17 17:54:17,254   INFO  Database filter by difficulty car: 231782 => 231782
+2020-07-17 17:54:17,470   INFO  Loading nusc dataset
+2020-07-17 17:54:18,365   INFO  Total samples for nusc dataset: 15695
+2020-07-17 17:56:26,385   INFO  Database filter by min points car: 314039 => 231782
+2020-07-17 17:56:26,641   INFO  Database filter by difficulty car: 231782 => 231782
+2020-07-17 17:56:26,858   INFO  Loading nusc dataset
+2020-07-17 17:56:27,202   INFO  Database filter by min points car: 99279 => 78884
+2020-07-17 17:56:27,280   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-17 17:56:27,386   INFO  Loading nusc dataset
+2020-07-17 17:56:27,774   INFO  Total samples for nusc dataset: 15695
+2020-07-17 17:56:28,081   INFO  Total samples for nusc dataset: 12435
+2020-07-17 17:56:31,659   INFO  Database filter by min points car: 314039 => 231782
+2020-07-17 17:56:31,903   INFO  Database filter by difficulty car: 231782 => 231782
+2020-07-17 17:56:32,144   INFO  Loading nusc dataset
+2020-07-17 17:56:33,078   INFO  Total samples for nusc dataset: 15695
+2020-07-17 17:56:55,083   INFO  Database filter by min points car: 99279 => 78884
+2020-07-17 17:56:55,171   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-17 17:56:55,282   INFO  Loading nusc dataset
+2020-07-17 17:56:56,026   INFO  Total samples for nusc dataset: 12435
+2020-07-17 17:58:02,845   INFO  Database filter by min points car: 314039 => 231782
+2020-07-17 17:58:03,086   INFO  Database filter by difficulty car: 231782 => 231782
+2020-07-17 17:58:03,304   INFO  Loading nusc dataset
+2020-07-17 17:58:04,224   INFO  Total samples for nusc dataset: 15695
+2020-07-17 17:58:04,258   INFO  Database filter by min points car: 99279 => 78884
+2020-07-17 17:58:04,340   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-17 17:58:04,450   INFO  Loading nusc dataset
+2020-07-17 17:58:05,148   INFO  Total samples for nusc dataset: 12435
+2020-07-17 17:58:09,375   INFO  Database filter by min points car: 314039 => 231782
+2020-07-17 17:58:09,634   INFO  Database filter by difficulty car: 231782 => 231782
+2020-07-17 17:58:09,854   INFO  Loading nusc dataset
+2020-07-17 17:58:10,484   INFO  Database filter by min points car: 99279 => 78884
+2020-07-17 17:58:10,570   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-17 17:58:10,681   INFO  Loading nusc dataset
+2020-07-17 17:58:10,833   INFO  Total samples for nusc dataset: 15695
+2020-07-17 17:58:11,421   INFO  Total samples for nusc dataset: 12435
+2020-07-17 20:15:17,029   INFO  Database filter by min points car: 314039 => 231782
+2020-07-17 20:15:17,268   INFO  Database filter by difficulty car: 231782 => 231782
+2020-07-17 20:15:17,484   INFO  Loading nusc dataset
+2020-07-17 20:15:18,390   INFO  Total samples for nusc dataset: 15695
+2020-07-17 20:16:30,464   INFO  Database filter by min points car: 314039 => 231782
+2020-07-17 20:16:30,705   INFO  Database filter by difficulty car: 231782 => 231782
+2020-07-17 20:16:30,920   INFO  Loading nusc dataset
+2020-07-17 20:16:31,832   INFO  Total samples for nusc dataset: 15695
+2020-07-17 20:16:48,459   INFO  Database filter by min points car: 99279 => 78884
+2020-07-17 20:16:48,543   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-17 20:16:48,646   INFO  Loading nusc dataset
+2020-07-17 20:16:49,328   INFO  Total samples for nusc dataset: 12435
+2020-07-17 20:19:38,318   INFO  Database filter by min points car: 99279 => 78884
+2020-07-17 20:19:38,401   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-17 20:19:38,407   INFO  Database filter by min points car: 314039 => 231782
+2020-07-17 20:19:38,508   INFO  Loading nusc dataset
+2020-07-17 20:19:38,648   INFO  Database filter by difficulty car: 231782 => 231782
+2020-07-17 20:19:38,873   INFO  Loading nusc dataset
+2020-07-17 20:19:39,219   INFO  Total samples for nusc dataset: 12435
+2020-07-17 20:19:39,834   INFO  Total samples for nusc dataset: 15695
+2020-07-17 20:25:50,343   INFO  Database filter by min points car: 314039 => 231782
+2020-07-17 20:25:50,602   INFO  Database filter by difficulty car: 231782 => 231782
+2020-07-17 20:25:50,823   INFO  Loading nusc dataset
+2020-07-17 20:25:51,768   INFO  Total samples for nusc dataset: 15695
+2020-07-17 20:33:46,384   INFO  Database filter by min points car: 99279 => 78884
+2020-07-17 20:33:46,466   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-17 20:33:46,573   INFO  Loading nusc dataset
+2020-07-17 20:33:47,255   INFO  Total samples for nusc dataset: 12435
+2020-07-17 20:51:26,524   INFO  Database filter by min points car: 314039 => 231782
+2020-07-17 20:51:26,745   INFO  Database filter by min points car: 99279 => 78884
+2020-07-17 20:51:26,781   INFO  Database filter by difficulty car: 231782 => 231782
+2020-07-17 20:51:26,826   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-17 20:51:26,936   INFO  Loading nusc dataset
+2020-07-17 20:51:27,033   INFO  Loading nusc dataset
+2020-07-17 20:51:27,626   INFO  Total samples for nusc dataset: 12435
+2020-07-17 20:51:27,953   INFO  Total samples for nusc dataset: 15695
+2020-07-17 20:55:20,694   INFO  Database filter by min points car: 314039 => 231782
+2020-07-17 20:55:20,925   INFO  Database filter by difficulty car: 231782 => 231782
+2020-07-17 20:55:21,133   INFO  Loading nusc dataset
+2020-07-17 20:55:22,073   INFO  Total samples for nusc dataset: 15695
+2020-07-17 20:55:23,250   INFO  Database filter by min points car: 99279 => 78884
+2020-07-17 20:55:23,329   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-17 20:55:23,438   INFO  Loading nusc dataset
+2020-07-17 20:55:24,128   INFO  Total samples for nusc dataset: 12435
+2020-07-17 21:48:54,842   INFO  Database filter by min points car: 314039 => 231782
+2020-07-17 21:48:55,080   INFO  Database filter by difficulty car: 231782 => 231782
+2020-07-17 21:48:55,303   INFO  Loading nusc dataset
+2020-07-17 21:48:55,318   INFO  Database filter by min points car: 99279 => 78884
+2020-07-17 21:48:55,398   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-17 21:48:55,505   INFO  Loading nusc dataset
+2020-07-17 21:48:56,198   INFO  Total samples for nusc dataset: 12435
+2020-07-17 21:48:56,213   INFO  Total samples for nusc dataset: 15695
+2020-07-17 21:50:18,137   INFO  Database filter by min points car: 314039 => 231782
+2020-07-17 21:50:18,367   INFO  Database filter by difficulty car: 231782 => 231782
+2020-07-17 21:50:18,583   INFO  Loading nusc dataset
+2020-07-17 21:50:19,496   INFO  Total samples for nusc dataset: 15695
+2020-07-17 21:54:53,745   INFO  Database filter by min points car: 314039 => 231782
+2020-07-17 21:54:53,985   INFO  Database filter by difficulty car: 231782 => 231782
+2020-07-17 21:54:54,205   INFO  Loading nusc dataset
+2020-07-17 21:54:55,090   INFO  Total samples for nusc dataset: 15695
+2020-07-17 21:58:38,542   INFO  Database filter by min points car: 314039 => 231782
+2020-07-17 21:58:38,775   INFO  Database filter by difficulty car: 231782 => 231782
+2020-07-17 21:58:38,992   INFO  Loading nusc dataset
+2020-07-17 21:58:39,887   INFO  Total samples for nusc dataset: 15695
+2020-07-17 21:59:59,654   INFO  Database filter by min points car: 314039 => 231782
+2020-07-17 21:59:59,890   INFO  Database filter by difficulty car: 231782 => 231782
+2020-07-17 22:00:00,107   INFO  Loading nusc dataset
+2020-07-17 22:00:01,007   INFO  Total samples for nusc dataset: 15695
+2020-07-17 22:01:26,002   INFO  Database filter by min points car: 314039 => 231782
+2020-07-17 22:01:26,245   INFO  Database filter by difficulty car: 231782 => 231782
+2020-07-17 22:01:26,462   INFO  Loading nusc dataset
+2020-07-17 22:01:27,359   INFO  Total samples for nusc dataset: 15695
+2020-07-17 22:02:15,644   INFO  Database filter by min points car: 99279 => 78884
+2020-07-17 22:02:15,723   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-17 22:02:15,825   INFO  Loading nusc dataset
+2020-07-17 22:02:16,502   INFO  Total samples for nusc dataset: 12435
+2020-07-17 22:03:58,304   INFO  Database filter by min points car: 314039 => 231782
+2020-07-17 22:03:58,548   INFO  Database filter by difficulty car: 231782 => 231782
+2020-07-17 22:03:58,773   INFO  Loading nusc dataset
+2020-07-17 22:03:59,731   INFO  Total samples for nusc dataset: 15695
+2020-07-17 22:06:31,091   INFO  Database filter by min points car: 314039 => 231782
+2020-07-17 22:06:31,330   INFO  Database filter by difficulty car: 231782 => 231782
+2020-07-17 22:06:31,550   INFO  Loading nusc dataset
+2020-07-17 22:06:31,636   INFO  Database filter by min points car: 99279 => 78884
+2020-07-17 22:06:31,719   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-17 22:06:31,827   INFO  Loading nusc dataset
+2020-07-17 22:06:32,474   INFO  Total samples for nusc dataset: 15695
+2020-07-17 22:06:32,540   INFO  Total samples for nusc dataset: 12435
+2020-07-17 22:08:06,450   INFO  Database filter by min points car: 314039 => 231782
+2020-07-17 22:08:06,689   INFO  Database filter by difficulty car: 231782 => 231782
+2020-07-17 22:08:06,910   INFO  Loading nusc dataset
+2020-07-17 22:08:07,810   INFO  Total samples for nusc dataset: 15695
+2020-07-17 22:10:24,983   INFO  Database filter by min points car: 314039 => 231782
+2020-07-17 22:10:25,231   INFO  Database filter by difficulty car: 231782 => 231782
+2020-07-17 22:10:25,447   INFO  Loading nusc dataset
+2020-07-17 22:10:26,365   INFO  Total samples for nusc dataset: 15695
+2020-07-17 22:12:31,193   INFO  Database filter by min points car: 314039 => 231782
+2020-07-17 22:12:31,424   INFO  Database filter by difficulty car: 231782 => 231782
+2020-07-17 22:12:31,642   INFO  Loading nusc dataset
+2020-07-17 22:12:32,573   INFO  Total samples for nusc dataset: 15695
+2020-07-17 22:13:59,152   INFO  Database filter by min points car: 314039 => 231782
+2020-07-17 22:13:59,383   INFO  Database filter by difficulty car: 231782 => 231782
+2020-07-17 22:13:59,599   INFO  Loading nusc dataset
+2020-07-17 22:14:00,521   INFO  Total samples for nusc dataset: 15695
+2020-07-17 23:08:45,528   INFO  Database filter by min points car: 314039 => 231782
+2020-07-17 23:08:45,767   INFO  Database filter by difficulty car: 231782 => 231782
+2020-07-17 23:08:45,985   INFO  Loading nusc dataset
+2020-07-17 23:08:46,966   INFO  Total samples for nusc dataset: 15695
+2020-07-17 23:08:47,929   INFO  Database filter by min points car: 99279 => 78884
+2020-07-17 23:08:48,008   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-17 23:08:48,121   INFO  Loading nusc dataset
+2020-07-17 23:08:48,814   INFO  Total samples for nusc dataset: 12435
+2020-07-18 00:12:22,141   INFO  Database filter by min points car: 413318 => 310666
+2020-07-18 00:12:22,464   INFO  Database filter by difficulty car: 310666 => 310666
+2020-07-18 00:12:22,792   INFO  Loading nusc dataset
+2020-07-18 00:12:24,550   INFO  Total samples for nusc dataset: 28130
+2020-07-18 00:29:59,578   INFO  Database filter by min points car: 413318 => 310666
+2020-07-18 00:29:59,895   INFO  Database filter by difficulty car: 310666 => 310666
+2020-07-18 00:30:00,231   INFO  Loading nusc dataset
+2020-07-18 00:30:01,955   INFO  Total samples for nusc dataset: 28130
+2020-07-18 00:33:00,060   INFO  Database filter by min points car: 413318 => 310666
+2020-07-18 00:33:00,375   INFO  Database filter by difficulty car: 310666 => 310666
+2020-07-18 00:33:00,706   INFO  Loading nusc dataset
+2020-07-18 00:33:02,387   INFO  Total samples for nusc dataset: 28130
+2020-07-18 09:52:34,318   INFO  Database filter by min points car: 314039 => 231782
+2020-07-18 09:52:34,550   INFO  Database filter by difficulty car: 231782 => 231782
+2020-07-18 09:52:34,768   INFO  Loading nusc dataset
+2020-07-18 09:52:35,678   INFO  Total samples for nusc dataset: 15695
+2020-07-18 09:54:50,218   INFO  Database filter by min points car: 314039 => 231782
+2020-07-18 09:54:50,445   INFO  Database filter by difficulty car: 231782 => 231782
+2020-07-18 09:54:50,663   INFO  Loading nusc dataset
+2020-07-18 09:54:51,548   INFO  Total samples for nusc dataset: 15695
+2020-07-18 09:56:10,541   INFO  Database filter by min points car: 314039 => 231782
+2020-07-18 09:56:10,779   INFO  Database filter by difficulty car: 231782 => 231782
+2020-07-18 09:56:10,998   INFO  Loading nusc dataset
+2020-07-18 09:56:11,881   INFO  Total samples for nusc dataset: 15695
+2020-07-18 09:56:35,831   INFO  Database filter by min points car: 314039 => 231782
+2020-07-18 09:56:36,066   INFO  Database filter by difficulty car: 231782 => 231782
+2020-07-18 09:56:36,283   INFO  Loading nusc dataset
+2020-07-18 09:56:37,180   INFO  Total samples for nusc dataset: 15695
+2020-07-18 11:23:29,005   INFO  Database filter by min points car: 314039 => 231782
+2020-07-18 11:23:29,238   INFO  Database filter by difficulty car: 231782 => 231782
+2020-07-18 11:23:29,455   INFO  Loading nusc dataset
+2020-07-18 11:23:30,341   INFO  Total samples for nusc dataset: 15695
+2020-07-18 11:27:01,852   INFO  Database filter by min points car: 314039 => 231782
+2020-07-18 11:27:02,083   INFO  Database filter by difficulty car: 231782 => 231782
+2020-07-18 11:27:02,301   INFO  Loading nusc dataset
+2020-07-18 11:27:03,195   INFO  Total samples for nusc dataset: 15695
+2020-07-18 11:27:29,057   INFO  Database filter by min points car: 314039 => 231782
+2020-07-18 11:27:29,289   INFO  Database filter by difficulty car: 231782 => 231782
+2020-07-18 11:27:29,511   INFO  Loading nusc dataset
+2020-07-18 11:27:30,397   INFO  Total samples for nusc dataset: 15695
+2020-07-18 11:27:58,194   INFO  Database filter by min points car: 314039 => 231782
+2020-07-18 11:27:58,432   INFO  Database filter by difficulty car: 231782 => 231782
+2020-07-18 11:27:58,650   INFO  Loading nusc dataset
+2020-07-18 11:27:59,535   INFO  Total samples for nusc dataset: 15695
+2020-07-18 11:29:26,174   INFO  Database filter by min points car: 314039 => 231782
+2020-07-18 11:29:26,404   INFO  Database filter by difficulty car: 231782 => 231782
+2020-07-18 11:29:26,620   INFO  Loading nusc dataset
+2020-07-18 11:29:27,535   INFO  Total samples for nusc dataset: 15695
+2020-07-18 11:29:56,354   INFO  Database filter by min points car: 99279 => 78884
+2020-07-18 11:29:56,507   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-18 11:29:56,698   INFO  Loading nusc dataset
+2020-07-18 11:29:57,823   INFO  Total samples for nusc dataset: 12435
+2020-07-18 12:44:21,933   INFO  Database filter by min points car: 84146 => 74942
+2020-07-18 12:44:22,111   INFO  Database filter by difficulty car: 74942 => 74942
+2020-07-18 12:44:22,722   INFO  Loading nusc dataset
+2020-07-18 12:44:24,228   INFO  Total samples for nusc dataset: 12435
+2020-07-18 13:29:54,820   INFO  Database filter by min points car: 255803 => 219633
+2020-07-18 13:29:55,042   INFO  Database filter by difficulty car: 219633 => 219633
+2020-07-18 13:29:55,083   INFO  Loading nusc dataset
+2020-07-18 13:29:56,013   INFO  Total samples for nusc dataset: 15695
+2020-07-18 13:36:23,805   INFO  Database filter by min points car: 84146 => 74942
+2020-07-18 13:36:23,942   INFO  Database filter by difficulty car: 74942 => 74942
+2020-07-18 13:36:24,447   INFO  Loading nusc dataset
+2020-07-18 13:36:25,606   INFO  Total samples for nusc dataset: 12435
+2020-07-18 16:26:30,476   INFO  Database filter by min points car: 255803 => 219633
+2020-07-18 16:26:30,699   INFO  Database filter by difficulty car: 219633 => 219633
+2020-07-18 16:26:30,878   INFO  Loading nusc dataset
+2020-07-18 16:26:30,899   INFO  Total samples for nusc dataset: 123
+2020-07-18 16:26:34,272   INFO  Database filter by min points car: 84146 => 74942
+2020-07-18 16:26:34,363   INFO  Database filter by difficulty car: 74942 => 74942
+2020-07-18 16:26:34,727   INFO  Loading nusc dataset
+2020-07-18 16:26:34,759   INFO  Total samples for nusc dataset: 200
+2020-07-28 17:48:29,587   INFO  Database filter by min points car: 2071 => 1643
+2020-07-28 17:48:29,589   INFO  Database filter by difficulty car: 1643 => 1643
+2020-07-28 17:48:29,725   INFO  Loading nusc dataset
+2020-07-28 17:48:29,733   INFO  Total samples for nusc dataset: 123
+2020-07-28 17:50:08,824   INFO  Database filter by min points car: 2071 => 1643
+2020-07-28 17:50:08,827   INFO  Database filter by difficulty car: 1643 => 1643
+2020-07-28 17:50:08,841   INFO  Loading nusc dataset
+2020-07-28 17:50:08,933   INFO  Total samples for nusc dataset: 123
+2020-07-28 17:50:20,847   INFO  Database filter by min points car: 2071 => 1643
+2020-07-28 17:50:20,849   INFO  Database filter by difficulty car: 1643 => 1643
+2020-07-28 17:50:20,862   INFO  Loading nusc dataset
+2020-07-28 17:50:20,868   INFO  Total samples for nusc dataset: 123
+2020-07-28 17:52:58,701   INFO  Database filter by min points car: 2071 => 1643
+2020-07-28 17:52:58,704   INFO  Database filter by difficulty car: 1643 => 1643
+2020-07-28 17:52:58,720   INFO  Loading nusc dataset
+2020-07-28 17:52:58,769   INFO  Total samples for nusc dataset: 123
+2020-07-28 17:54:17,518   INFO  Database filter by min points car: 2071 => 1643
+2020-07-28 17:54:17,520   INFO  Database filter by difficulty car: 1643 => 1643
+2020-07-28 17:54:17,532   INFO  Loading nusc dataset
+2020-07-28 17:54:17,540   INFO  Total samples for nusc dataset: 123
+2020-07-28 17:56:41,564   INFO  Database filter by min points car: 2011 => 1660
+2020-07-28 17:56:41,584   INFO  Database filter by difficulty car: 1660 => 1660
+2020-07-28 17:56:41,665   INFO  Loading nusc dataset
+2020-07-28 17:56:41,685   INFO  Total samples for nusc dataset: 200
+2020-07-28 18:19:47,276   INFO  Database filter by min points car: 2071 => 1643
+2020-07-28 18:19:47,278   INFO  Database filter by difficulty car: 1643 => 1643
+2020-07-28 18:19:47,293   INFO  Loading nusc dataset
+2020-07-28 18:19:47,301   INFO  Total samples for nusc dataset: 123
+2020-07-28 18:27:24,505   INFO  Database filter by min points car: 2071 => 1643
+2020-07-28 18:27:24,518   INFO  Database filter by difficulty car: 1643 => 1643
+2020-07-28 18:27:24,543   INFO  Loading nusc dataset
+2020-07-28 18:27:24,554   INFO  Total samples for nusc dataset: 123
+2020-07-28 18:30:47,708   INFO  Database filter by min points car: 2071 => 1643
+2020-07-28 18:30:47,710   INFO  Database filter by difficulty car: 1643 => 1643
+2020-07-28 18:30:47,723   INFO  Loading nusc dataset
+2020-07-28 18:30:47,731   INFO  Total samples for nusc dataset: 123
+2020-07-28 18:38:00,123   INFO  Database filter by min points car: 2071 => 1643
+2020-07-28 18:38:00,147   INFO  Database filter by difficulty car: 1643 => 1643
+2020-07-28 18:38:00,184   INFO  Loading nusc dataset
+2020-07-28 18:38:00,199   INFO  Total samples for nusc dataset: 123
+2020-07-28 18:42:21,300   INFO  Database filter by min points car: 2071 => 1643
+2020-07-28 18:42:21,303   INFO  Database filter by difficulty car: 1643 => 1643
+2020-07-28 18:42:21,316   INFO  Loading nusc dataset
+2020-07-28 18:42:21,323   INFO  Total samples for nusc dataset: 123
+2020-07-28 18:51:53,934   INFO  Database filter by min points car: 2071 => 1643
+2020-07-28 18:51:53,941   INFO  Database filter by difficulty car: 1643 => 1643
+2020-07-28 18:51:53,992   INFO  Loading nusc dataset
+2020-07-28 18:51:54,004   INFO  Total samples for nusc dataset: 123
+2020-07-28 18:53:03,937   INFO  Database filter by min points car: 2011 => 1660
+2020-07-28 18:53:03,960   INFO  Database filter by difficulty car: 1660 => 1660
+2020-07-28 18:53:04,029   INFO  Loading nusc dataset
+2020-07-28 18:53:04,056   INFO  Total samples for nusc dataset: 200
+2020-07-28 18:58:06,352   INFO  Database filter by min points car: 2011 => 1660
+2020-07-28 18:58:06,354   INFO  Database filter by difficulty car: 1660 => 1660
+2020-07-28 18:58:06,367   INFO  Loading nusc dataset
+2020-07-28 18:58:06,381   INFO  Total samples for nusc dataset: 200
+2020-07-28 19:00:28,066   INFO  Database filter by min points car: 2011 => 1660
+2020-07-28 19:00:28,068   INFO  Database filter by difficulty car: 1660 => 1660
+2020-07-28 19:00:28,082   INFO  Loading nusc dataset
+2020-07-28 19:00:28,095   INFO  Total samples for nusc dataset: 200
+2020-07-28 20:12:04,181   INFO  Database filter by min points car: 2071 => 1643
+2020-07-28 20:12:04,183   INFO  Database filter by difficulty car: 1643 => 1643
+2020-07-28 20:12:04,196   INFO  Loading nusc dataset
+2020-07-28 20:12:04,203   INFO  Total samples for nusc dataset: 123
+2020-07-28 20:13:52,525   INFO  Database filter by min points car: 2071 => 1643
+2020-07-28 20:13:52,527   INFO  Database filter by difficulty car: 1643 => 1643
+2020-07-28 20:13:52,607   INFO  Loading nusc dataset
+2020-07-28 20:13:52,620   INFO  Total samples for nusc dataset: 123
+2020-07-28 20:16:11,203   INFO  Database filter by min points car: 2071 => 1643
+2020-07-28 20:16:11,205   INFO  Database filter by difficulty car: 1643 => 1643
+2020-07-28 20:16:11,222   INFO  Loading nusc dataset
+2020-07-28 20:16:11,230   INFO  Total samples for nusc dataset: 123
+2020-07-28 20:22:28,082   INFO  Database filter by min points car: 2011 => 1660
+2020-07-28 20:22:28,084   INFO  Database filter by difficulty car: 1660 => 1660
+2020-07-28 20:22:28,097   INFO  Loading nusc dataset
+2020-07-28 20:22:28,109   INFO  Total samples for nusc dataset: 200
+2020-07-28 20:34:11,642   INFO  Database filter by min points car: 314039 => 231782
+2020-07-28 20:34:12,253   INFO  Database filter by difficulty car: 231782 => 231782
+2020-07-28 20:34:12,465   INFO  Loading nusc dataset
+2020-07-28 20:34:14,059   INFO  Total samples for nusc dataset: 15695
+2020-07-28 20:34:21,475   INFO  Database filter by min points car: 99279 => 78884
+2020-07-28 20:34:21,641   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-28 20:34:21,789   INFO  Loading nusc dataset
+2020-07-28 20:34:23,041   INFO  Total samples for nusc dataset: 12435
+2020-07-28 20:37:41,458   INFO  Database filter by min points car: 99279 => 78884
+2020-07-28 20:37:41,690   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-28 20:37:41,813   INFO  Loading nusc dataset
+2020-07-28 20:37:42,562   INFO  Total samples for nusc dataset: 12435
+2020-07-28 20:37:42,737   INFO  Database filter by min points car: 314039 => 231782
+2020-07-28 20:37:43,391   INFO  Database filter by difficulty car: 231782 => 231782
+2020-07-28 20:37:43,723   INFO  Loading nusc dataset
+2020-07-28 20:37:46,482   INFO  Total samples for nusc dataset: 15695
+2020-07-28 21:10:23,901   INFO  Database filter by min points car: 314039 => 231782
+2020-07-28 21:10:24,129   INFO  Database filter by difficulty car: 231782 => 231782
+2020-07-28 21:10:24,907   INFO  Loading nusc dataset
+2020-07-28 21:10:25,438   INFO  Database filter by min points car: 99279 => 78884
+2020-07-28 21:10:25,523   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-28 21:10:26,045   INFO  Loading nusc dataset
+2020-07-28 21:10:26,970   INFO  Total samples for nusc dataset: 15695
+2020-07-28 21:10:27,442   INFO  Total samples for nusc dataset: 12435
+2020-07-28 23:15:31,648   INFO  Database filter by min points car: 2011 => 1660
+2020-07-28 23:15:31,651   INFO  Database filter by difficulty car: 1660 => 1660
+2020-07-28 23:15:32,025   INFO  Loading nusc dataset
+2020-07-28 23:15:32,044   INFO  Total samples for nusc dataset: 241
+2020-07-28 23:17:56,296   INFO  Database filter by min points car: 2011 => 1660
+2020-07-28 23:17:56,299   INFO  Database filter by difficulty car: 1660 => 1660
+2020-07-28 23:17:56,314   INFO  Loading nusc dataset
+2020-07-28 23:17:56,330   INFO  Total samples for nusc dataset: 241
+2020-07-28 23:47:48,415   INFO  Database filter by min points car: 2071 => 1643
+2020-07-28 23:47:48,421   INFO  Database filter by difficulty car: 1643 => 1643
+2020-07-28 23:47:48,845   INFO  Loading nusc dataset
+2020-07-28 23:47:49,012   INFO  Total samples for nusc dataset: 800
+2020-07-28 23:50:02,600   INFO  Database filter by min points car: 2011 => 1660
+2020-07-28 23:50:02,602   INFO  Database filter by difficulty car: 1660 => 1660
+2020-07-28 23:50:02,808   INFO  Loading nusc dataset
+2020-07-28 23:50:02,850   INFO  Total samples for nusc dataset: 799
+2020-07-28 23:54:56,507   INFO  Database filter by min points car: 2071 => 1643
+2020-07-28 23:54:56,513   INFO  Database filter by difficulty car: 1643 => 1643
+2020-07-28 23:54:56,547   INFO  Loading nusc dataset
+2020-07-28 23:54:56,668   INFO  Total samples for nusc dataset: 800
+2020-07-29 00:07:45,637   INFO  Database filter by min points car: 2071 => 1643
+2020-07-29 00:07:45,678   INFO  Database filter by difficulty car: 1643 => 1643
+2020-07-29 00:07:45,744   INFO  Loading nusc dataset
+2020-07-29 00:07:45,830   INFO  Total samples for nusc dataset: 800
+2020-07-29 00:08:41,798   INFO  Database filter by min points car: 2011 => 1660
+2020-07-29 00:08:41,802   INFO  Database filter by difficulty car: 1660 => 1660
+2020-07-29 00:08:42,240   INFO  Loading nusc dataset
+2020-07-29 00:08:42,343   INFO  Total samples for nusc dataset: 799
+2020-07-29 00:33:17,554   INFO  Database filter by min points car: 2071 => 1643
+2020-07-29 00:33:17,558   INFO  Database filter by difficulty car: 1643 => 1643
+2020-07-29 00:33:17,577   INFO  Loading nusc dataset
+2020-07-29 00:33:17,969   INFO  Total samples for nusc dataset: 1597
+2020-07-29 00:33:28,997   INFO  Database filter by min points car: 2011 => 1660
+2020-07-29 00:33:29,001   INFO  Database filter by difficulty car: 1660 => 1660
+2020-07-29 00:33:29,019   INFO  Loading nusc dataset
+2020-07-29 00:33:29,141   INFO  Total samples for nusc dataset: 1622
+2020-07-29 13:22:01,229   INFO  Database filter by min points car: 26723 => 24218
+2020-07-29 13:22:01,253   INFO  Database filter by difficulty car: 24218 => 24218
+2020-07-29 13:22:01,275   INFO  Loading nusc dataset
+2020-07-29 13:22:01,315   INFO  Total samples for nusc dataset: 790
+2020-07-29 13:22:24,882   INFO  Database filter by min points car: 12232 => 10884
+2020-07-29 13:22:24,893   INFO  Database filter by difficulty car: 10884 => 10884
+2020-07-29 13:22:24,910   INFO  Loading nusc dataset
+2020-07-29 13:22:24,950   INFO  Total samples for nusc dataset: 814
+2020-07-29 13:24:55,847   INFO  Database filter by min points car: 26723 => 24218
+2020-07-29 13:24:55,870   INFO  Database filter by difficulty car: 24218 => 24218
+2020-07-29 13:24:55,893   INFO  Loading nusc dataset
+2020-07-29 13:24:55,933   INFO  Total samples for nusc dataset: 790
+2020-07-29 13:24:59,295   INFO  Database filter by min points car: 12232 => 10884
+2020-07-29 13:24:59,307   INFO  Database filter by difficulty car: 10884 => 10884
+2020-07-29 13:24:59,325   INFO  Loading nusc dataset
+2020-07-29 13:24:59,362   INFO  Total samples for nusc dataset: 814
+2020-07-29 17:34:42,950   INFO  Database filter by min points car: 26723 => 24218
+2020-07-29 17:34:42,975   INFO  Database filter by difficulty car: 24218 => 24218
+2020-07-29 17:34:42,998   INFO  Loading nusc dataset
+2020-07-29 17:34:43,042   INFO  Total samples for nusc dataset: 790
+2020-07-29 17:34:45,158   INFO  Database filter by min points car: 12232 => 10884
+2020-07-29 17:34:45,169   INFO  Database filter by difficulty car: 10884 => 10884
+2020-07-29 17:34:45,187   INFO  Loading nusc dataset
+2020-07-29 17:34:45,226   INFO  Total samples for nusc dataset: 814
+2020-08-01 06:11:12,846   INFO  Database filter by min points car: 80667 => 70363
+2020-08-01 06:11:12,921   INFO  Database filter by difficulty car: 70363 => 70363
+2020-08-01 06:11:12,987   INFO  Loading nusc dataset
+2020-08-01 06:11:13,320   INFO  Total samples for nusc dataset: 6030
+2020-08-01 06:11:31,094   INFO  Database filter by min points car: 7811 => 6892
+2020-08-01 06:11:31,102   INFO  Database filter by difficulty car: 6892 => 6892
+2020-08-01 06:11:31,124   INFO  Loading nusc dataset
+2020-08-01 06:11:31,443   INFO  Total samples for nusc dataset: 6022
+2020-08-01 06:21:21,855   INFO  Database filter by min points car: 7811 => 6892
+2020-08-01 06:21:21,863   INFO  Database filter by difficulty car: 6892 => 6892
+2020-08-01 06:21:21,884   INFO  Loading nusc dataset
+2020-08-01 06:21:22,193   INFO  Total samples for nusc dataset: 6022
+2020-08-01 06:21:37,606   INFO  Database filter by min points car: 7811 => 6892
+2020-08-01 06:21:37,613   INFO  Database filter by difficulty car: 6892 => 6892
+2020-08-01 06:21:37,640   INFO  Loading nusc dataset
+2020-08-01 06:21:38,066   INFO  Total samples for nusc dataset: 6022

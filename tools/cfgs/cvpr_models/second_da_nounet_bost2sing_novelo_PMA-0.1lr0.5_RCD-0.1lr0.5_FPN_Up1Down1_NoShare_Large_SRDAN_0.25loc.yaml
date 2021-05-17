@@ -1,0 +1,254 @@
+CLASS_NAMES: ['car']
+
+DATA_CONFIG:
+    _BASE_CONFIG_: tools/cfgs/dataset_configs/nuscenes_dataset_boston2singapore_novelo_large_all.yaml
+    DA: True
+    EVAL_LOC: singapore_all
+    DATA_AUGMENTOR:
+        DISABLE_AUG_LIST: ['placeholder']
+        AUG_CONFIG_LIST:
+            - NAME: gt_sampling
+              USE_ROAD_PLANE: False
+              DB_INFO_PATH:
+                  - /home/wzha8158/datasets/3D_Detection/Nuscenes/boston_dbinfos_train_10sweeps_Falsevelo_PCDet.pkl
+              PREPARE: {
+                 filter_by_min_points: ['car:5','pedestrian:5','barrier:5'],
+                 filter_by_difficulty: [-1],
+              }
+
+              SAMPLE_GROUPS: ['car:2','pedestrian:2','barrier:2']
+              NUM_POINT_FEATURES: 5
+              DATABASE_WITH_FAKELIDAR: False
+              REMOVE_EXTRA_WIDTH: [0.0, 0.0, 0.0]
+              LIMIT_WHOLE_SCENE: False
+
+            - NAME: random_world_flip
+              ALONG_AXIS_LIST: ['x']
+
+DATA_CONFIG_TARGET:
+    _BASE_CONFIG_: tools/cfgs/dataset_configs/nuscenes_dataset_singapore_novelo_large_all.yaml
+    DA: True
+    EVAL_LOC: singapore_all
+    DATA_AUGMENTOR:
+        DISABLE_AUG_LIST: ['placeholder']
+        AUG_CONFIG_LIST:
+            - NAME: gt_sampling
+              USE_ROAD_PLANE: False
+              DB_INFO_PATH:
+                  - /home/wzha8158/datasets/3D_Detection/Nuscenes/singapore_dbinfos_train_10sweeps_Falsevelo_PCDet.pkl
+              PREPARE: {
+                 filter_by_min_points: ['car:5','pedestrian:5','barrier:5'],
+                 filter_by_difficulty: [-1],
+              }
+
+              SAMPLE_GROUPS: ['car:2','pedestrian:2','barrier:2']
+              NUM_POINT_FEATURES: 5
+              DATABASE_WITH_FAKELIDAR: False
+              REMOVE_EXTRA_WIDTH: [0.0, 0.0, 0.0]
+              LIMIT_WHOLE_SCENE: False
+
+            - NAME: random_world_flip
+              ALONG_AXIS_LIST: ['x']
+
+DATA_CONFIG_SOURCE_TEST:
+    _BASE_CONFIG_: tools/cfgs/dataset_configs/nuscenes_dataset_boston_novelo_large_all.yaml
+    DA: True
+    EVAL_LOC: boston_all
+    DATA_AUGMENTOR:
+        DISABLE_AUG_LIST: ['placeholder']
+        AUG_CONFIG_LIST:
+            - NAME: gt_sampling
+              USE_ROAD_PLANE: False
+              DB_INFO_PATH:
+                  - /home/wzha8158/datasets/3D_Detection/Nuscenes/boston_dbinfos_train_10sweeps_Falsevelo_PCDet.pkl
+              PREPARE: {
+                 filter_by_min_points: ['car:5','pedestrian:5','barrier:5'],
+                 filter_by_difficulty: [-1],
+              }
+
+              SAMPLE_GROUPS: ['car:2','pedestrian:2','barrier:2']
+              NUM_POINT_FEATURES: 5
+              DATABASE_WITH_FAKELIDAR: False
+              REMOVE_EXTRA_WIDTH: [0.0, 0.0, 0.0]
+              LIMIT_WHOLE_SCENE: False
+
+            - NAME: random_world_flip
+              ALONG_AXIS_LIST: ['x']
+
+MODEL:
+    NAME: SECONDFPNNOUNet
+    FPN_UP_LAYERS: 1
+    FPN_DOWNUP_LAYERS: 1
+
+    VFE:
+        NAME: MeanVFE
+
+    BACKBONE_3D:
+        NAME: NoUNetV2FPN
+        RETURN_ENCODED_TENSOR: True
+        RETURN_ENCODED_TENSOR_FPN: True
+
+    MAP_TO_BEV:
+        NAME: HeightCompressionFPN
+        NUM_BEV_FEATURES: 256
+        NUM_BEV_FEATURES_FPN_UP: [640]
+        NUM_BEV_FEATURES_FPN_DOWNUP: [256, 128]
+        # first 4 then 5
+
+    BACKBONE_2D:
+        NAME: BaseBEVBackboneFPN
+
+        LAYER_NUMS: [5, 5]
+        LAYER_STRIDES: [1, 2]
+        NUM_FILTERS: [128, 256]
+        UPSAMPLE_STRIDES: [1, 2]
+        NUM_UPSAMPLE_FILTERS: [256, 256]
+
+        NUM_BEV_FEATURES_FPN_UP: [640]
+        LAYER_NUMS_FPN_UP: [[5, 5]]
+        LAYER_STRIDES_FPN_UP: [[1, 2]]
+        NUM_FILTERS_FPN_UP: [[128, 256]]
+        UPSAMPLE_STRIDES_FPN_UP: [[1, 2]]
+        NUM_UPSAMPLE_FILTERS_FPN_UP: [[256, 256]]
+
+        NUM_BEV_FEATURES_FPN_DOWNUP: [256, 128]
+        LAYER_NUMS_FPN_DOWNUP: [[5, 5],[5, 5]]
+        LAYER_STRIDES_FPN_DOWNUP: [[1, 2],[1, 2]]
+        NUM_FILTERS_FPN_DOWNUP: [[128, 256],[64, 128]]
+        UPSAMPLE_STRIDES_FPN_DOWNUP: [[1, 2],[1, 2]]
+        NUM_UPSAMPLE_FILTERS_FPN_DOWNUP: [[256, 256],[128, 128]]
+
+    DENSE_HEAD:
+        NAME: AnchorHeadFuseFPNCombine
+        DOM_SQUEEZE: True
+        CLASS_AGNOSTIC: False
+
+        DOM_PATCH_FIRST: True
+        VOXEL_DOM_PATCH_ATTENTION: True
+        PATCH_SIZE: 128
+        PATCH_SIZE_FPN: {'3': 256, '4': 128, '5': 64}
+
+        RANGE_GUIDANCE: True
+        RANGE_GUIDANCE_DOM_ONLY: True
+        RANGE_GUIDANCE_CONV_DOM: False
+        RANGE_GUIDANCE_NEW_CONV_DOM: True
+        RANGE_GUIDANCE_NEW_CONV_DOM_ATTENTION: False
+        RANGE_GUIDANCE_NEW_CONV_DOM_CONTEXT: False
+
+        USE_DIRECTION_CLASSIFIER: True
+        USE_DOMAIN_CLASSIFIER: True
+        DIR_OFFSET: 0.0
+        DIR_LIMIT_OFFSET: 0.0
+        NUM_DIR_BINS: 2
+
+        # DOM_KERNEL_SIZE_FPN: {'3': 256, '4': 128, '5': 64}
+
+        ANCHOR_GENERATOR_CONFIG: [
+            {
+                'class_name': 'car',
+                'anchor_sizes': [[1.97, 4.63, 1.74]],
+                'anchor_rotations': [0, 1.57],
+                'anchor_bottom_heights': [-0.95],
+                'velocities': [0, 0],
+                'align_center': False,
+                'feature_map_stride': 8,
+                'matched_threshold': 0.6,
+                'unmatched_threshold': 0.45,
+                'feature_map_stride_fpn': {'3': 4, '4': 8, '5': 16},
+                'anchor_sizes_fpn': {'3':[[1.97, 4.63, 1.74]], '4':[[1.97, 4.63, 1.74]], '5':[[1.97, 4.63, 1.74]]},
+            }
+        ]
+#
+
+        TARGET_ASSIGNER_CONFIG:
+            NAME: AxisAlignedTargetAssigner
+            POS_FRACTION: -1.0
+            SAMPLE_SIZE: 512
+            PSEUDO_POS_FRACTION: 0.3
+            PSEUDO_SAMPLE_SIZE: 512
+            PSEUDO_BALANCE_POS_NEG_SAMPLE_RATIO: 2
+            PSEUDO_BG_DEFAULT_W: 0.5
+            NORM_BY_NUM_EXAMPLES: False
+            MATCH_HEIGHT: False
+            BOX_CODER: ResidualCoder
+
+        LOSS_CONFIG:
+            LOSS_WEIGHTS: {
+                'cls_weight': 1.0,
+                'loc_weight': 0.25,
+                'dir_weight': 0.2,
+                'dom_weight': 0.1,
+                'code_weights': [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+            }
+
+    POST_PROCESSING:
+        RECALL_THRESH_LIST: [0.3, 0.5, 0.7]
+        SCORE_THRESH: 0.1
+        OUTPUT_RAW_SCORE: False
+
+        EVAL_METRIC: kitti
+
+        NMS_CONFIG:
+            MULTI_CLASSES_NMS: False
+            NMS_TYPE: nms_gpu
+            NMS_THRESH: 0.2
+            NMS_PRE_MAXSIZE: 1000
+            NMS_POST_MAXSIZE: 80
+
+
+OPTIMIZATION:
+    OPTIMIZER: adam_onecycle
+    LR: 0.003
+    WEIGHT_DECAY: 0.01
+    MOMENTUM: 0.9
+
+    MOMS: [0.95, 0.85]
+    PCT_START: 0.4
+    DIV_FACTOR: 10
+    DECAY_STEP_LIST: [35, 45]
+    LR_DECAY: 0.1
+    LR_CLIP: 0.0000001
+
+    LR_WARMUP: False
+    WARMUP_EPOCH: 1
+
+    GRAD_NORM_CLIP: 10
+
+DOM_OPTIMIZATION:
+    OPTIMIZER: adam_onecycle
+    LR: 0.003
+    WEIGHT_DECAY: 0.01
+    MOMENTUM: 0.9
+
+    MOMS: [0.95, 0.85]
+    PCT_START: 0.4
+    DIV_FACTOR: 10
+    DECAY_STEP_LIST: [35, 45]
+    LR_DECAY: 0.1
+    LR_CLIP: 0.0000001
+
+    LR_WARMUP: False
+    WARMUP_EPOCH: 1
+
+    GRAD_NORM_CLIP: 10
+
+    FEAT_LR_RATIO: 0.5
+
+
+ATT_W_OPTIMIZATION:
+    OPTIMIZER: adam_onecycle
+    LR: 0.0003
+    WEIGHT_DECAY: 0.01
+    MOMENTUM: 0.9
+
+    MOMS: [0.95, 0.85]
+    PCT_START: 0.4
+    DIV_FACTOR: 10
+    DECAY_STEP_LIST: [35, 45]
+    LR_DECAY: 0.1
+    LR_CLIP: 0.0000001
+
+    LR_WARMUP: False
+    WARMUP_EPOCH: 1
+
+    GRAD_NORM_CLIP: 10

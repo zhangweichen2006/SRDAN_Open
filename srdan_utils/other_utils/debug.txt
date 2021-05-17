@@ -1,0 +1,18 @@
+pcdet/datasets/nuscenes/nuscenes_dataset.py:589: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  dataset_cfg = EasyDict(yaml.load(open('/home/wzha8158/Dropbox/CVPR2021_LidarPerceptron/Home/OpenLidarPerceptron/tools/cfgs/dataset_configs/nuscenes_dataset.yaml')))
+2020-07-06 18:02:45,894   INFO  Database filter by min points car: 99279 => 78884
+2020-07-06 18:02:45,977   INFO  Database filter by difficulty car: 78884 => 78884
+2020-07-06 18:02:46,088   INFO  Loading nusc dataset
+2020-07-06 18:02:46,774   INFO  Total samples for nusc dataset: 12435
+--Return--
+> /home/wzha8158/Dropbox/CVPR2021_LidarPerceptron/Home/OpenLidarPerceptron/pcdet/datasets/nuscenes/nuscenes_dataset.py(601)<module>()->None
+-> pdb.set_trace()
+(Pdb) 
+Traceback (most recent call last):
+  File "pcdet/datasets/nuscenes/nuscenes_dataset.py", line 601, in <module>
+    pdb.set_trace()
+  File "/usr/lib/python3.6/bdb.py", line 55, in trace_dispatch
+    return self.dispatch_return(frame, arg)
+  File "/usr/lib/python3.6/bdb.py", line 99, in dispatch_return
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit

@@ -1,0 +1,220 @@
+DATASET: 'NuscenesDataset'
+DATA_PATH: '/home/wzha8158/datasets/3D_Detection/Nuscenes/'
+DA: False
+N_SWEEPS: 10
+
+POINT_CLOUD_RANGE: [-51.2, -51.2, -5.0, 51.2, 51.2, 3.0]
+CLASS_NAMES: ['car']
+#, 'pedestrian'
+
+# DATA_SPLIT: {
+#     'train': train,
+#     'test': val
+# }
+INFO_PATH: '/home/wzha8158/datasets/3D_Detection/Nuscenes/half_singapore_infos_all_10sweeps_Falsevelo_PCDet.pkl'
+VAL_INFO_PATH: '/home/wzha8158/datasets/3D_Detection/Nuscenes/half_boston_infos_val_10sweeps_Falsevelo_PCDet.pkl'
+EVAL_LOC: 'half_boston'
+# INFO_PATH: '/home/wzha8158/datasets/3D_Detection/Nuscenes/infos_train_10sweeps_withvelo_filter_True_DET3D.pkl'
+
+#/home/wzha8158/datasets/3D_Detection/Nuscenes/dbinfos_train_10sweeps_withvelo.pkl
+#/home/wzha8158/datasets/3D_Detection/Nuscenes/singapore_dbinfos_train_10sweeps_withvelo.pkl
+DATA_AUGMENTOR:
+    DISABLE_AUG_LIST: ['placeholder']
+    AUG_CONFIG_LIST:
+        - NAME: gt_sampling
+          USE_ROAD_PLANE: False
+          DB_INFO_PATH:
+              - "/home/wzha8158/datasets/3D_Detection/Nuscenes/half_singapore_dbinfos_train_10sweeps_Falsevelo_PCDet.pkl"
+          PREPARE: {
+            filter_by_min_points: ['car:5'],
+            filter_by_difficulty: [-1],
+          }
+          SAMPLE_GROUPS: ['car:2']
+          NUM_POINT_FEATURES: 5
+          ADD_RGB_TO_POINTS: False
+          DATABASE_WITH_FAKELIDAR: False
+          REMOVE_EXTRA_WIDTH: [0.0, 0.0, 0.0]
+          LIMIT_WHOLE_SCENE: False
+
+        - NAME: random_world_flip
+          ALONG_AXIS_LIST: ['x']
+
+        # - NAME: random_world_rotation
+        #   WORLD_ROT_ANGLE: [0, 0]
+
+        # - NAME: random_world_scaling
+        #   WORLD_SCALE_RANGE: [0.95, 1.05]
+
+POINT_FEATURE_ENCODING: {
+    encoding_type: absolute_coordinates_encoding,
+    used_feature_list: ['x', 'y', 'z', 'intensity', 'ring_index'],
+    src_feature_list: ['x', 'y', 'z', 'intensity', 'ring_index'],
+}
+
+DATA_PROCESSOR:
+    - NAME: mask_points_and_boxes_outside_range
+      REMOVE_OUTSIDE_BOXES: True
+
+    - NAME: shuffle_points
+      SHUFFLE_ENABLED: {
+        'train': True,
+        'test': False
+      }
+
+    - NAME: transform_points_to_voxels
+      VOXEL_SIZE: [0.1, 0.1, 0.2]
+      MAX_POINTS_PER_VOXEL: 10
+      MAX_NUMBER_OF_VOXELS: {
+        'train': 60000,
+        'test': 60000
+      }
+
+
+# DB_SAMPLER: {
+#     type: "GT-AUG",
+#     enable: False,
+#     db_info_path: "/home/wzha8158/datasets/3D_Detection/Nuscenes/dbinfos_train_10sweeps_withvelo.pkl",
+#     sample_groups: [{car: 2},
+#     ],
+#     db_prep_steps: [{
+#             filter_by_min_num_points: {
+#                 car: 5,
+#             }
+#         },
+#         {filter_by_difficulty: [-1],},
+#     ],
+#     global_random_rotation_range_per_object: [0, 0],
+#     rate: 1.0,
+# }
+
+# TRAIN_PREPROCESSOR: {
+#     mode: "train",
+#     shuffle_points: True,
+#     gt_loc_noise: [0.0, 0.0, 0.0],
+#     gt_rot_noise: [0.0, 0.0],
+#     global_rot_noise: [-0.3925, 0.3925],
+#     global_scale_noise: [0.95, 1.05],
+#     global_rot_per_obj_range: [0, 0],
+#     global_trans_noise: [0.2, 0.2, 0.2],
+#     remove_points_after_sample: False,
+#     gt_drop_percentage: 0.0,
+#     gt_drop_max_keep_points: 15,
+#     remove_unknown_examples: False,
+#     remove_environment: False,
+#     db_sampler: db_sampler,
+#     class_names: class_names,
+# }
+#db_sampler2: db_sampler2,
+
+# VAL_PREPROCESSOR: {
+#     mode: "val",
+#     shuffle_points: False,
+#     remove_environment: False,
+#     remove_unknown_examples: False,
+# }
+
+# VOXEL_GENERATOR : {
+#     range: [-50.4, -50.4, -5.0, 50.4, 50.4, 3.0],
+#     voxel_size: [0.1, 0.1, 0.2],
+#     max_points_in_voxel: 10,
+#     max_voxel_num: 60000,
+# }
+
+
+
+# box_coder = dict(
+#     type="ground_box3d_coder", n_dim=9, linear_dim=False, encode_angle_vector=False,
+# )
+
+# assigner = dict(
+#     box_coder=box_coder,
+#     target_assigner=target_assigner,
+#     out_size_factor=get_downsample_factor(model),
+#     debug=False,
+# )
+
+# target_assigner = dict(
+#     type="iou",
+#     anchor_generators=[
+#         dict(
+#             type="anchor_generator_range",
+#             sizes=[1.97, 4.63, 1.74],
+#             anchor_ranges=[-50.4, -50.4, -0.95, 50.4, 50.4, -0.95],
+#             rotations=[0, 1.57],
+#             velocities=[0, 0],
+#             matched_threshold=0.6,
+#             unmatched_threshold=0.45,
+#             class_name="car",
+#         ),
+#     ],
+#     sample_positive_fraction=-1,
+#     sample_size=512,
+#     region_similarity_calculator=dict(type="nearest_iou_similarity",),
+#     pos_area_threshold=-1,
+#     tasks=tasks,
+# )
+
+# def get_downsample_factor(model_config):
+#     neck_cfg = model_config["neck"]
+#     downsample_factor = np.prod(neck_cfg.get("ds_layer_strides", [1]))
+#     if len(neck_cfg.get("us_layer_strides", [])) > 0:
+#         downsample_factor /= neck_cfg.get("us_layer_strides", [])[-1]
+#     backbone_cfg = model_config["backbone"]
+#     downsample_factor *= backbone_cfg["ds_factor"]
+#     downsample_factor = int(downsample_factor)
+#     assert downsample_factor > 0
+#     return downsample_factor
+
+# model = dict(
+#     type="VoxelNet",
+#     pretrained=None,
+#     reader=dict(
+#         type="VoxelFeatureExtractorV3",
+#         num_input_features=5,
+#         norm_cfg=norm_cfg,
+#     ),
+#     backbone=dict(
+#         type="SpMiddleResNetFHD", num_input_features=5, ds_factor=8, norm_cfg=norm_cfg,
+#     ),
+#     neck=dict(
+#         type="RPN",
+#         layer_nums=[5, 5],
+#         ds_layer_strides=[1, 2],
+#         ds_num_filters=[128, 256],
+#         us_layer_strides=[1, 2],
+#         us_num_filters=[256, 256],
+#         num_input_features=256,
+#         norm_cfg=norm_cfg,
+#         logger=logging.getLogger("RPN"),
+#     ),
+#     bbox_head=dict(
+#         # type='RPNHead',
+#         type="MultiGroupHead",
+#         mode="3d",
+#         in_channels=sum([256, 256]),
+#         norm_cfg=norm_cfg,
+#         tasks=tasks,
+#         weights=[1,],
+#         box_coder=build_box_coder(box_coder),
+#         encode_background_as_zeros=True,
+#         loss_norm=dict(
+#             type="NormByNumPositives", pos_cls_weight=1.0, neg_cls_weight=2.0,
+#         ),
+#         loss_cls=dict(type="SigmoidFocalLoss", alpha=0.25, gamma=2.0, loss_weight=1.0,),
+#         use_sigmoid_score=True,
+#         loss_bbox=dict(
+#             type="WeightedSmoothL1Loss",
+#             sigma=3.0,
+#             code_weights=[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.2, 0.2, 1.0],
+#             codewise=True,
+#             loss_weight=1.0,
+#         ),
+#         encode_rad_error_by_sin=True,
+#         loss_aux=dict(
+#             type="WeightedSoftmaxClassificationLoss",
+#             name="direction_classifier",
+#             loss_weight=0.2,
+#         ),
+#         direction_offset=0.785,
+#     ),
+# )

@@ -1,0 +1,1 @@
+../waymo-open-dataset/bazel-bin/waymo_open_dataset/metrics/tools/compute_detection_metrics_main ~/liwork_dirs/$1/my_preds.bin  data/Waymo/gt_val/gt_preds.bin
