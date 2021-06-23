@@ -4,10 +4,10 @@ Code repo for **SRDAN**, Scale-aware and Range-aware Domain Adaptation Network f
 
 Please consider cite:
 @InProceedings{Zhang_2021_CVPR,
-    author    = {Zhang, Weichen and Li, Wen and Xu, Dong},
-    title     = {SRDAN: Scale-Aware and Range-Aware Domain Adaptation Network for Cross-Dataset 3D Object Detection},
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-    month     = {June},
-    year      = {2021},
-    pages     = {6769-6779}
+&nbsp;&nbsp;author    = {Zhang, Weichen and Li, Wen and Xu, Dong},
+&nbsp;&nbsp;title     = {SRDAN: Scale-Aware and Range-Aware Domain Adaptation Network for Cross-Dataset 3D Object Detection},
+&nbsp;&nbsp;booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+&nbsp;&nbsp;month     = {June},
+&nbsp;&nbsp;year      = {2021},
+&nbsp;&nbsp;pages     = {6769-6779}
 }
